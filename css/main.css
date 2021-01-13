@@ -106,7 +106,7 @@ textarea {
 
 body {
   background-color: var(--body-background);
-  font-family: Calibri, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -127,7 +127,7 @@ a:hover {
   width: 80%;
   background-color: var(--blue);
   position: absolute;
-  top: 10px;
+  top: 8px;
 }
 
 .box-2 {
@@ -135,7 +135,7 @@ a:hover {
   width: 80%;
   background-color: var(--red);
   position: absolute;
-  top: 508px;
+  top: 489px;
 }
 
 .box-3 {
@@ -143,7 +143,7 @@ a:hover {
   width: 80%;
   background-color: var(--red);
   position: absolute;
-  top: 692px;
+  top: 673px;
 }
 
 .box-4 {
@@ -151,7 +151,7 @@ a:hover {
   width: 80%;
   background-color: var(--red);
   position: absolute;
-  top: 850px;
+  top: 831px;
 }
 
 .box-5 {
@@ -167,7 +167,7 @@ a:hover {
   width: 80%;
   background-color: var(--red);
   position: absolute;
-  top: 234px;
+  top: 257px;
 }
 
 .box-7 {
@@ -175,7 +175,7 @@ a:hover {
   width: 80%;
   background-color: var(--red);
   position: absolute;
-  top: 370px;
+  top: 392px;
 }
 
 .dinA4 {
@@ -199,6 +199,8 @@ a:hover {
   height: auto;
   width: 100%;
   display: flex;
+  position: relative;
+  margin-bottom: 16px;
 }
 
 .top-name-profession {
@@ -208,6 +210,7 @@ a:hover {
 .top-name {
   color: var(--blue);
   margin: 0;
+  font-size: 30px;
 }
 
 .top-profession {
@@ -217,23 +220,27 @@ a:hover {
 
 .top-description {
   color: var(--black);
-  margin-top: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.2px;
 }
 
 .profile-pic {
   flex-shrink: 0;
   border: 4px solid var(--red);
   border-radius: 50%;
-  margin: 0 12px 0 38px;
   width: 150px;
   height: 150px;
   background-image: url("../img/profile-pic-round_2.png");
   background-size: 101%;
   background-position: center;
+  position: absolute;
+  top: -8px;
+  left: 260px;
 }
 
 .top-links {
-  width: 225px;
+  width: 240px;
   flex-shrink: 0;
   list-style-type: none;
   margin: 0;
@@ -243,11 +250,9 @@ a:hover {
 .top-links-line {
   text-align: right;
   color: var(--black);
-  margin: 4px;
-}
-
-.email-link {
-  margin-left: -8px;
+  margin: 6px 4px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .top-links-icons {
@@ -269,7 +274,6 @@ a:hover {
   height: 18px;
   width: 18px;
   margin-left: -1px;
-  padding-top: 2px;
 }
 
 .phone-icon {
@@ -282,10 +286,6 @@ a:hover {
 .devicon-icon {
   padding-top: 9px;
   padding-bottom: 2px;
-}
-
-.top-text {
-
 }
 
 .top-border {
@@ -337,7 +337,7 @@ a:hover {
 }
 
 .professional-experience-header-small {
-  font-weight: normal;
+  font-weight: 600;
   color: var(--black);
   margin: 0;
 }
@@ -371,6 +371,7 @@ a:hover {
 
 .professional-experience-list-line {
   color: var(--black);
+  font-weight: 600;
 }
 
 .page-number {
@@ -393,7 +394,7 @@ a:hover {
 .education-header-small {
   margin: 0;
   color: var(--black);
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .education-date {
@@ -425,6 +426,7 @@ a:hover {
 
 .education-list-line {
   color: var(--black);
+  font-weight: 600;
 }
 
 .languages-header {
@@ -448,10 +450,10 @@ a:hover {
 }
 
 .language-block-text {
-  font-size: 20px;
+  font-size: 18px;
   margin: auto 0;
   padding-left: 4px;
-  font-weight: bold;
+  font-weight: 600;
   color: var(--black);
 }
 
@@ -477,9 +479,9 @@ a:hover {
 }
 
 .interest-name {
-  font-size: 20px;
+  font-size: 18px;
   margin: auto 0;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* ==========================================================================
