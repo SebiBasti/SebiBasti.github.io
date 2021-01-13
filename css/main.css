@@ -429,15 +429,13 @@ a:hover {
 }
 
 .language-block {
-  padding: 6px 6px 8px 6px;
-  margin: 4px 12px 4px 0;
+  margin: 4px 32px 4px 0;
   display: flex;
   border-radius: 4px;
 }
 
 .language-icon {
-  font-size: 30px;
-  color: var(--red);
+  height: 40px;
   margin: 0;
 }
 
