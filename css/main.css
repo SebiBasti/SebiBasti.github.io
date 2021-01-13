@@ -175,7 +175,7 @@ a:hover {
   width: 80%;
   background-color: var(--red);
   position: absolute;
-  top: 392px;
+  top: 390px;
 }
 
 .dinA4 {
@@ -196,7 +196,7 @@ a:hover {
 }
 
 .top {
-  height: auto;
+  height: 141px;
   width: 100%;
   display: flex;
   position: relative;
@@ -295,6 +295,10 @@ a:hover {
   margin-left: -57px;
 }
 
+.expertise {
+  height: 148px;
+}
+
 .expertise-header {
   color: var(--black);
   margin: 10px 0;
@@ -325,33 +329,42 @@ a:hover {
   color: var(--black);
 }
 
+.professional-experience {
+  height: 534px;
+}
+
 .professional-experience-header {
   color: var(--black);
   margin-bottom: 8px;
+  height: 34px;
 }
 
 .professional-experience-header-small-bold {
   font-weight: bold;
   color: var(--black);
   margin: 16px 0 0 0;
+  height: 26px;
 }
 
 .professional-experience-header-small {
   font-weight: 600;
   color: var(--black);
   margin: 0;
+  height: 26px;
 }
 
 .professional-experience-date {
   margin: 0;
   color: var(--red);
   font-style: italic;
+  height: 22px;
 }
 
 .professional-experience-achievements {
   margin: 4px 0 0 0;
   color: var(--red);
   font-style: italic;
+  height: 22px;
 }
 
 .professional-experience-list {
@@ -359,6 +372,7 @@ a:hover {
   padding-left: 14px;
   color: var(--red);
   list-style: none;
+  height: 67px;
 }
 
 .professional-experience-list-line::before {
@@ -381,32 +395,41 @@ a:hover {
   bottom: -50px;
 }
 
+.education {
+  height: 650px;
+}
+
 .education-header {
   color: var(--black);
   margin: 0 0 8px 0;
+  height: 34px;
 }
 
 .education-header-small-bold {
   margin: 16px 0 0 0;
   color: var(--black);
+  height: 26px;
 }
 
 .education-header-small {
   margin: 0;
   color: var(--black);
   font-weight: 600;
+  height: 26px;
 }
 
 .education-date {
   margin: 0;
   color: var(--red);
   font-style: italic;
+  height: 22px;
 }
 
 .education-learning-points {
   margin: 0;
   color: var(--red);
   font-style: italic;
+  height: 22px;
 }
 
 .education-list {
@@ -414,6 +437,14 @@ a:hover {
   padding-left: 14px;
   color: var(--red);
   list-style: none;
+}
+
+.list-le-wagon {
+  height: 90px;
+}
+
+.list-university {
+  height: 22px;
 }
 
 .education-list-line::before {
@@ -427,6 +458,10 @@ a:hover {
 .education-list-line {
   color: var(--black);
   font-weight: 600;
+}
+
+.english-certificate {
+  height: 120px;
 }
 
 .languages-header {
